@@ -1,7 +1,12 @@
 body{
-    background-color:darkgoldenrod;
+    background-color:burlywood;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
 .card{
     margin:20px;
     width: 300px;
@@ -27,4 +32,16 @@ body{
 }
 .card-content{
     padding: 20px
+}
+.card:hover{
+    background-color:burlywood;
+    transform: scale(1.05);
+}
+.card .footer{
+    padding:25px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
 }
